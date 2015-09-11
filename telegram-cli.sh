@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+# greetz: jbfc.ru
 
 sudo port install libconfig-hr readline lua jansson lua51 python34 libevent
 #sudo port select gcc none
@@ -12,5 +13,14 @@ cd tg
 #sed -i.bak 's/-Wno-deprecated //g' Makefile.in
 ./configure && make
 
-echo "All data in bin/ folder"
-ls -al bin/
+echo "Installing Telegram cli to: /usr/local/tg"
+sudo cp -R bin /usr/local/tg
+
+echo "Cleanup.."
+cd /tmp && rm -rf rg
+
+echo ""
+echo "Please /usr/local/tg add to PATH env."
+echo ""
+
+
