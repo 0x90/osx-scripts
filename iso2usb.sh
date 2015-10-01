@@ -3,7 +3,7 @@
 
 check_euid(){
     if [[ $EUID -ne 0 ]]; then
-        print_error "This script must be ran with sudo or root privileges, or this isn't going to work."
+        echo "This script must be ran with sudo or root privileges, or this isn't going to work."
         exit 1
     fi
 }
