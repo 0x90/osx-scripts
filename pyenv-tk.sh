@@ -21,8 +21,9 @@
 
 # --enable-shared \ --with-system-expat \ --with-system-ffi \ --with-ensurepip=yes \ --enable-unicode=ucs
 # export PYTHON_CONFIGURE_OPTS="--enable-optimizations --enable-loadable-sqlite-extensions --with-pydebug --enable-ipv6 --enable-unicode=ucs4 --with-tcltk-includes='-I/opt/local/include' --with-tcltk-libs='-L/opt/local/lib'"
-export PYTHON_CONFIGURE_OPTS="--with-pydebug --enable-ipv6 --enable-unicode=ucs4 --with-tcltk-includes=\"-I/opt/local/include\" --with-tcltk-libs=\"-L/opt/local/lib\""
+export PYTHON_CONFIGURE_OPTS="--enable-ipv6 --enable-unicode=ucs4 --with-tcltk-includes=\"-I/opt/local/include\" --with-tcltk-libs=\"-L/opt/local/lib\""
 # --with-fpectl
+# --with-pydebug 
 # --with-system-expat \
 # --with-system-ffi   \
 # --with-ensurepip=yes \
