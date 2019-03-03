@@ -10,3 +10,6 @@ sudo /opt/local/share/java/android-sdk-macosx/tools/android
 #sh /opt/local/share/java/android-sdk-macosx/tools/android
 
 echo "Add to PATH /opt/local/share/java/android-sdk-macosx/platform-tools/adb"
+
+
+export PYTHON_CONFIGURE_OPTS="--enable-shared --with-system-expat"

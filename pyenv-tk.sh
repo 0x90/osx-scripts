@@ -48,3 +48,6 @@ pyenv install -vfk 3.6.4
 
 # env PYTHON_CONFIGURE_OPTS="--enable-framework"
 # pyenv install 3.6.4
+
+
+export PYTHON_CONFIGURE_OPTS="--enable-shared --with-system-expat"
